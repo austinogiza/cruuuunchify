@@ -120,6 +120,7 @@ max-width: 400px;
 height: 100%;
 position: relative;
 z-index: 25;
+margin: 56px 0 0 0;
 
 `
 const Header = styled(headerText)`
