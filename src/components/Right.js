@@ -121,6 +121,10 @@ height: 100%;
 position: relative;
 z-index: 25;
 margin: 56px 0 0 0;
+@media only screen and (max-width: 650px){
+    align-items: center;
+}
+
 
 `
 const Header = styled(headerText)`
