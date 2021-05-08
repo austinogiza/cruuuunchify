@@ -88,7 +88,7 @@ position: relative;
 const BodyGrid = styled.div`
 position: absolute;
 top: 30px;
-left: -50px;
+left: -80px;
 z-index: 20;
 display: grid;
 grid-template-columns: repeat(4,1fr);
@@ -124,6 +124,7 @@ margin: 56px 0 0 0;
 @media only screen and (max-width: 650px){
     align-items: center;
     max-width: 300px;
+    margin:56px auto 0 auto;
 }
 
 

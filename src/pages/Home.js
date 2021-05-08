@@ -88,8 +88,10 @@ justify-content: flex-start;
 align-items: center;
 max-width: 1300px;
 margin: 0;
+
 @media only screen and (max-width: 450px){
     justify-content:space-between;
+    margin: 0 auto;
 }
 `
 const Logo = styled.div`
