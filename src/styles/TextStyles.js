@@ -37,4 +37,17 @@ line-height: 1.6;
     font-size: 14px; 
 }
 `
+export const bigText = styled.h1`
+  font-family: "MaisonNeueBold";
+font-size: 18px;
+font-weight: 700;
+line-height: 1.6;
+@media only screen and (max-width: 450px){
+    font-size: 17px; 
+}
+
+@media only screen and (max-width: 300px){
+    font-size: 15px; 
+}
+`
 
