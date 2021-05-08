@@ -123,6 +123,7 @@ z-index: 25;
 margin: 56px 0 0 0;
 @media only screen and (max-width: 650px){
     align-items: center;
+    max-width: 300px;
 }
 
 
@@ -163,6 +164,11 @@ font-style: normal;
 font-weight: 400;
 text-align: left;
 margin: 16px 0;
+
+@media only screen and (max-width: 650px){
+    font-size: 12px;
+    text-align: center;
+}
 `
 const Spotify = styled(ImSpotify)`
 width: 18px;
