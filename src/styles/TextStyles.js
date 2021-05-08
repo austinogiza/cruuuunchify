@@ -20,9 +20,7 @@ line-height: 1.27;
     font-size: 32px; 
 }
 
-@media only screen and (max-width: 450px){
-    font-size: 28px; 
-}
+
 
 `
 
@@ -31,8 +29,6 @@ export const mediumText = styled.h1`
 font-size: 16px;
 font-weight: 400;
 line-height: 1.6;
-@media only screen and (max-width: 450px){
-    font-size: 14px; 
-}
+
 `
 

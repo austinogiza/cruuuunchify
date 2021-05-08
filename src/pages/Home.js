@@ -67,7 +67,7 @@ display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-auto-rows: minmax(300px,auto);
 position: relative;
-max-width: 1100px;
+max-width: 1000px;
 margin: 0 auto;
 @media only screen and (max-width: 700px){
     grid-template-columns: repeat(1,1fr);
@@ -83,7 +83,7 @@ const Header = styled.div`
 height: 50px;
 display: flex;
 flex-direction: row;
-padding: 10px;
+
 justify-content: flex-start;
 align-items: center;
 max-width: 1300px;
@@ -144,7 +144,7 @@ height: 50px;
 width: 100%;
 display: flex;
 flex-direction: row;
-padding: 10px;
+
 justify-content: flex-start;
 align-items: center;
 max-width: 1300px;
