@@ -4,4 +4,33 @@
   box-sizing: border-box;
 }
 
-body{}
+@font-face {
+  font-family: "MaisonNeueRegular";
+  src: url('./fonts/MaisonNeueMono-Regular.otf')  format("opentype");
+}
+@font-face {
+  font-family: "MaisonNeueMedium";
+  src: url('./fonts/MaisonNeue-Medium.otf')  format("opentype");
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url('./fonts/Circular\ Std\ Font.otf')  format("opentype");
+}
+@font-face {
+  font-family: "MaisonNeueLight";
+  src: url('./fonts/MaisonNeue-Light.otf')   format("opentype");
+}
+@font-face {
+  font-family: "MaisonNeueBold";
+  src: url('./fonts/MaisonNeue-Bold.otf') format("opentype");
+}
+
+body{
+background: linear-gradient(#071b00, #070705);
+color: #fff;
+width: 100%;
+height: 100%;
+font-family: "MaisonNeueRegular";
+
+}
