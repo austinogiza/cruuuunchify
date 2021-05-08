@@ -132,9 +132,15 @@ margin: 0;
 span{
     color: ${colorThemes.green};
 }
+@media only screen and (max-width: 650px){
+    text-align: center;
+}
 `
 const Text = styled(mediumText)`
 margin: 16px 0;
+@media only screen and (max-width: 650px){
+    text-align: center;
+}
 `
 
 

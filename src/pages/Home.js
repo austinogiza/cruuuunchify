@@ -57,7 +57,7 @@ width:100%;
 min-height:100vh;
 display: flex;
 flex-direction: column;
-padding: 10px 40px;
+padding: 10px 32px;
 `
 
 const BodyGrid = styled.div`
@@ -83,11 +83,14 @@ const Header = styled.div`
 height: 50px;
 display: flex;
 flex-direction: row;
-
+width: 100%;
 justify-content: flex-start;
 align-items: center;
 max-width: 1300px;
 margin: 0;
+@media only screen and (max-width: 450px){
+    justify-content:space-between;
+}
 `
 const Logo = styled.div`
 width: 30px;
