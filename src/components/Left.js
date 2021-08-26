@@ -16,6 +16,7 @@ const Left = () => {
     
 
            <Note/>
+           {spotifyData.map}
            <Section />
 
          

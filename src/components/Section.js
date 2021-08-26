@@ -1,15 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 
-const Section = ({name, songname, songnumber}) => {
+const Section = ({name, songname, songnumber, largImg, spotifyData}) => {
 
+    const [activeAnimation, setActivAnimation] = useState(true)
+    const [activeSliderIndex, setActiveSliderIndex]= useState(0)
     return (
       <Body>
 
 <SectionBody>
 <LargeCard>
 <Spotify/>
-
+<Largeimg src={largImg}/>
 <Details>
     <Name>{name}</Name>
     <Detailsrow>
@@ -72,5 +74,11 @@ const Songname = styled.div`
 `
 const Songnumber = styled.div`
 
+`
+
+const Largeimg = styled.img`
+position: absolute;
+object-fit: cover;
+object-position:center;
 `
 export default Section

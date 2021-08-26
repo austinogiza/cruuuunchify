@@ -160,7 +160,7 @@ align-items: center;
 color: ${colorThemes.white};
 cursor: pointer;
 font-size: 13px;
-font-family: "MaisonNeueMedium";
+font-family: "Maison Neue Bold";
 font-style: normal;
 font-weight: 400;
 text-align: left;

@@ -90,17 +90,17 @@ height: 20px;
 width: 20px;
 transition: 0.5s ease;
 -webkit-transition: 0.5s ease;
+opacity: 1;
 svg{
     height: 20px;
     transition: 0.5s ease;
 -webkit-transition: 0.5s ease;
 width: 20px; 
 ${Body}:hover & {
-    opacity: 0.3;
+    opacity: 0.1;
 position: absolute;
 top:  50%;
 left: 50%;
-
     transform: translate(-50%,-50%) scale(15);
 }
 }

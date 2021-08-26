@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const tinyText = styled.h2`
 font-size: 12px;
-font-family: "MaisonNeueMedium";
+font-family: "Maison Neue Bold";
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 text-align: left;
 `
 export const headerText = styled.h1`
- font-family: "MaisonNeueBold";
+  font-family: "Maison Neue Bold";
 font-size: 61px;
 font-weight: 900;
 line-height: 1.27;
@@ -25,7 +25,7 @@ line-height: 1.27;
 `
 
 export const mediumText = styled.h1`
-  font-family: "MaisonNeueRegular";
+font-family: "Maison Neue Regular";
 font-size: 16px;
 font-weight: 400;
 line-height: 1.6;
@@ -38,7 +38,7 @@ line-height: 1.6;
 }
 `
 export const bigText = styled.h1`
-  font-family: "MaisonNeueBold";
+  font-family: "Maison Neue Bold";
 font-size: 18px;
 font-weight: 700;
 line-height: 1.6;

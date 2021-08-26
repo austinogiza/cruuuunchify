@@ -5,12 +5,12 @@
 }
 
 @font-face {
-  font-family: "MaisonNeueRegular";
-  src: url('./fonts/MaisonNeueMono-Regular.otf')  format("opentype");
+  font-family: "Maison Neue Regular";
+  src: url('./fonts/Maison\ Neue\ Light.ttf')  format("TrueType");
 }
 @font-face {
-  font-family: "MaisonNeueMedium";
-  src: url('./fonts/MaisonNeue-Medium.otf')  format("opentype");
+  font-family: "Maison Neue Bold";
+  src: url('./fonts/Maison\ Neue\ Bold.ttf')  format("TrueType");
 }
 
 @font-face {
@@ -27,10 +27,10 @@
 }
 
 body{
-background: linear-gradient(#071b00, #070705);
+background: #111112;
 color: #fff;
 width: 100%;
 height: 100%;
-font-family: "MaisonNeueRegular";
+font-family: "Maison Neue Regular";
 
 }
